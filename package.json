@@ -47,7 +47,8 @@
     "@infinite-one-v2/apps/*",
     "apps/*",
     "apps",
-    "apps-e2e"
+    "apps-e2e",
+    "libs"
   ],
   "dependencies": {
     "@nestjs/common": "^11.0.0",

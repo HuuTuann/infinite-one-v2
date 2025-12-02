@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/infinite-one-server"
+    },
+    {
+      "path": "./libs"
     }
   ]
 }
