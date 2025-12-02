@@ -4,7 +4,10 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/web-infinite-one"
+      "path": "./apps/infinite-one-server-e2e"
+    },
+    {
+      "path": "./apps/infinite-one-server"
     }
   ]
 }

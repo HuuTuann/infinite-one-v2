@@ -1,0 +1,27 @@
+{
+  "name": "@infinite-one-v2/infinite-one-server-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "infinite-one-server-e2e",
+    "implicitDependencies": [
+      "infinite-one-server"
+    ],
+    "targets": {
+      "e2e": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ],
+        "options": {
+          "jestConfig": "apps/infinite-one-server-e2e/jest.config.cts",
+          "passWithNoTests": true
+        },
+        "dependsOn": [
+          "infinite-one-server:build",
+          "infinite-one-server:serve"
+        ]
+      }
+    }
+  }
+}
